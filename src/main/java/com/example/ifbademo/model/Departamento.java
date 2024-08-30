@@ -16,6 +16,11 @@ public class Departamento extends AbstractEntity<Long>{
         this.nome = nome;
     }
 
+    @Override
+    public String toString() {
+        return "Departamento [id = " + getId() + " nome = " + nome + "]";
+    }
+
     
     
 }
